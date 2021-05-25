@@ -9,6 +9,5 @@ public class ex010 {
         float tempCels = myObj.nextFloat();
         float tempFah = (tempCels * 9 / 5) + 32;
         System.out.println("Temperatura em Fahrenheit: " + tempFah);
-        //Wwww
     }
 }
