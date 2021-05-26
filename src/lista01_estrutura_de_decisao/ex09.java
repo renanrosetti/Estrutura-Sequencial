@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class ex09 {
     public static void main(String[] args) {
         System.out.println("Temperatura em Fahrenheit: ");
-        Scanner perNon = new Scanner(System.in);
+        Scanner myOwn = new Scanner(System.in);
 
-        float tempFah = perNon.nextFloat();
+        float tempFah = myOwn.nextFloat();
         float tempCels = 5 * ((tempFah - 32) / 9);
 
         System.out.println("Temperatura em graus Celsius: " + tempCels);
